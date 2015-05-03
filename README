@@ -2,3 +2,18 @@ This is your new Play application
 =====================================
 
 This file will be packaged with your application, when using `play dist`.
+
+/**
+Macで動作するまで
+// 作業ディレクトリに移動（あれば）
+cd workspace
+// ソースコードをgithubから持ってくる
+git clone https://github.com/kuriko/poker-analytics.git
+// プロジェクトディレクトリに移動
+cd poker-analytics
+// typesafe-activatorのインストール
+brew install typesafe-activator
+// activatorの起動（playコマンドはこっちに変わったらしい。）
+activator
+// コンソールにてサーバーを起動！
+[poker_api] $ run
